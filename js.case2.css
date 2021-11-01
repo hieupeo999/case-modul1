@@ -1,0 +1,31 @@
+#tinhnang ul {
+    list-style: none;
+    display: flex;
+
+}
+#tinhnang ul li{
+    padding: 0px 80px ;
+}
+.content{
+    width: 2000px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 350px 300px 300px 300px;
+    grid-template-rows: 300px 300px 300px;
+    grid-gap: 80px;
+}
+.item img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+.item ul {
+    list-style: none;
+    align-content: center;
+}
+.item ul li a {
+    text-decoration: none;
+}
+#chayanh{
+    padding: 100px;
+}

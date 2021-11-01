@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="js.case2.css">
+</head>
+<body>
+<table style="background-color: coral">
+    <tr>
+        <td>
+            <img id="logoanh" src="imgmodul1/logo11.png"height="200"width="400">
+        </td>
+        <td>
+            <div id="tinhnang">
+                <ul>
+                    <li><a href="#">Home</a> </li>
+                    <li><a href="#">Sản Phẩm</a> </li>
+                    <li><a href="#">Feedback</a> </li>
+                    <li><a href="#">Địa chỉ & Liên hệ</a> </li>
+
+
+                </ul>
+            </div>
+            <div id="timkiem">
+                <input id="search" type="" name="" placeholder="tìm kiếm"size="150px">
+            </div>
+        </td>
+    </tr>
+</table>
+<div class="content">
+    <div class="item">
+        <ul>
+            <li>
+                <img src="imgmodul1/jdlowdenim.jpg">
+            </li>
+            <li><a href="">Mua</a></li>
+            <li>
+                <a href="">shoes1</a>
+            </li>
+            <li>
+                <span>120$</span>
+            </li>
+        </ul>
+    </div>
+    <div class="item">
+        <ul>
+            <li>
+                <img src="imgmodul1/jacketdenim1.jpg">
+            </li>
+            <li><a href="">Mua</a></li>
+            <li>
+                <a href="">jacket1</a>
+            </li>
+            <li>
+                <span>200$</span>
+            </li>
+        </ul>
+    </div>
+    <div class="item">
+
+        <ul>
+            <li>
+                <img src="imgmodul1/jacketdenim2.jpg">
+            </li>
+            <li><a href="">Mua</a></li>
+            <li>
+                <a href="">jacket2</a>
+            </li>
+            <li>
+                <span>200$</span>
+            </li>
+        </ul>
+
+    </div>
+    <div class="item">
+        <ul>
+            <li>
+                <img src="imgmodul1/jacketdenim3.jpg">
+            </li>
+            <li><a href="">Mua</a></li>
+            <li>
+                <a href="">jacket3</a>
+            </li>
+            <li>
+                <span>200$</span>
+            </li>
+        </ul>
+
+    </div>
+    <div class="item">
+        <ul>
+            <li>
+                <img src="imgmodul1/bapeorange.JPG">
+            </li>
+            <li><a href="">Mua</a></li>
+            <li>
+                <a href="">shoes2</a>
+            </li>
+            <li>
+                <span>150$</span>
+            </li>
+        </ul>
+    </div>
+    <div class="item">
+        <ul>
+            <li>
+                <img src="imgmodul1/jacketorange1.jpg">
+            </li>
+            <li><a href="">Mua</a></li>
+            <li>
+                <a href="">jacket4</a>
+            </li>
+            <li>
+                <span>200$</span>
+            </li>
+        </ul>
+    </div>
+    <div class="item">
+        <ul>
+            <li>
+                <img src="imgmodul1/jacketorange2.jpg">
+            </li>
+            <li><a href="">Mua</a></li>
+            <li>
+                <a href="">jacket5</a>
+            </li>
+            <li>
+                <span>200$</span>
+            </li>
+        </ul>
+    </div>
+    <div class="item">
+        <ul>
+            <li>
+                <img src="imgmodul1/jacketorange3.jpeg">
+            </li>
+            <li><a href="">Mua</a></li>
+            <li>
+                <a href="">jacket6</a>
+            </li>
+            <li>
+                <span>200$</span>
+            </li>
+        </ul>
+    </div>
+    <div class="item">
+        <ul>
+            <li>
+                <img src="imgmodul1/af1pink.jpg">
+            </li>
+            <li><a href="">Mua</a></li>
+            <li>
+                <a href="">shoes3</a>
+            </li>
+            <li>
+                <span>180$</span>
+            </li>
+        </ul>
+    </div>
+    <div class="item">
+        <ul>
+            <li>
+                <img src="imgmodul1/jacketpink1.jpg">
+            </li>
+            </li>
+            <li><a href="">Mua</a></li>
+            <li>
+                <a href="">jacket7</a>
+            </li>
+            <li>
+                <span>180$</span>
+
+        </ul>
+    </div>
+    <div class="item">
+        <ul>
+            <li>
+                <img src="imgmodul1/jacketpink2.jpg">
+            </li>
+            <li><a href="">Mua</a></li>
+            <li>
+                <a href="">jacket8</a>
+            </li>
+            <li>
+                <span>180$</span>
+            </li>
+        </ul>
+    </div>
+    <div class="item">
+        <ul>
+            <li>
+                <img src="imgmodul1/jacketpink3.jpeg">
+            </li>
+            <li><a href="">Mua</a></li>
+            <li>
+                <a href="">jacket9</a>
+            </li>
+            <li>
+                <span>180$</span>
+            </li>
+        </ul>
+    </div>
+</div>
+<div id="chayanh">
+    <img id="img" src="imgmodul1/imgbanner/logobape2.png" height="401" width="654"/>
+</div>
+</body>
+<script>
+    let count=1;
+    function doianh(){
+        count++;
+        if(count>2){
+            count=1;
+        }
+        document.getElementById("img").src="imgmodul1/imgbanner/logobape"+count+".png";
+    }
+    setInterval(doianh,1500);
+    let arritem = [
+        ["jacket1", "imgmodul1/jacketdenim1.jpg", "200$"],
+        ["jacket2", "imgmodul1/jacketdenim2.jpg", "200$"],
+        ["jacket3", "imgmodul1/jacketdenim2.jpg", "200$"],
+        ["shoes1", "imgmodul1/jdlowdenim.jpg", "120$"],
+        ["jacket4","imgmodul1/jacketorange1.jpg","200$"],
+        ["jacket5","imgmodul1/jacketorange2.jpg","200$"],
+        ["jacket6","imgmodul1/jacketdenim3.jpg","200$"],
+        ["shoes2","imgmodul1/bapeorange.JPG","150$"],
+        ["jacket7","imgmodul1/jacketpink1.jpg","200$"],
+        ["jacket8","imgmodul1/jacketpink2.jpg","200$"],
+        ["jacket9","imgmodul1/jacketpink3.jpeg","200$"],
+        ["shoes3","imgmodul1/af1pink.jpg","180$"]
+    ]
+    alert(arritem[4]);
+    alert(arritem[4])
+    function outputitem(tenSP,img,price) {
+        let arr = arritem;
+        for (let i = 0; i < arr.length; i++) {
+            for (let j = 0; j < arr[i].length; j++) {
+            }
+        }
+    }
+
+
+</script>
+</html>
